@@ -9,9 +9,15 @@
     <body>
     <h1>
         <?php
-            echo "Hello World"; 
-            // print "test";
+        $a=5;
+        $b="World";
+            echo "Hello," . " " . $b . "!" . " " . $a;     
         ?>
     </h1>
+    <h2>
+        <?php
+            echo  nl2br("kings \n garden1 \n garden2"); // nl2br() is used to add a new line
+        ?>
+    </h2>
     </body>
 </html>
