@@ -18,12 +18,20 @@
         fclose($myfile);
         ?>
     </h3>
-    
+
     <h4>
         <?php
         $myfile = fopen("test.txt", "r");
         echo fread($myfile, filesize("test.txt"));
         fclose($myfile);
+        ?>
+    </h4>
+    <h4>
+        <?php
+        $file = "test.txt";
+        $test = file_get_contents($file);
+        $test = nl2br($test);
+        echo $test;
         ?>
     </h4>
 
