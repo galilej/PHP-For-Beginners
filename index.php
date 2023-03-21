@@ -11,9 +11,9 @@
 <body>
     <h3>
         <?php
-        $myfile = fopen("test.txt", "w+");
+        $myfile = fopen("test.php", "w+"); // otvara php fajl za pisanje i brisnje sadrzaja
 
-        $txt = "Spisak \n -prvi \n -drugi \n -treci";
+        $txt = "Spisak \n -prvi \n -drugi \n -treci \n -peti";
         fwrite($myfile, $txt);
         fclose($myfile);
         ?>
@@ -21,15 +21,15 @@
 
     <h4>
         <?php
-        $myfile = fopen("test.txt", "r");
-        echo fread($myfile, filesize("test.txt"));
+        $myfile = fopen("test.php", "r"); // otvara php fajl za citanje
+        echo fread($myfile, filesize("test.php"));
         fclose($myfile);
         ?>
     </h4>
     <h4>
         <?php
-        $file = "test.txt";
-        $test = file_get_contents($file);
+        $file = "test.php";
+        $test = file_get_contents($file); // citanje formatiranog fajla 
         $test = nl2br($test);
         echo $test;
         ?>
