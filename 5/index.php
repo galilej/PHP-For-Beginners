@@ -5,17 +5,7 @@
     <title></title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="css/style.css" rel="stylesheet">
-    <style>
-        body {
-            display: grid;
-            place-items: center;
-            height: 100vh;
-            margin: 0;
-            font-family: sans-serif;
-            background-color: lightblue;
-        }
-    </style>
+    <link href="style.css" rel="stylesheet">
 </head>
 
 <body>
