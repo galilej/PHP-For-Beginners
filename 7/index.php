@@ -35,10 +35,7 @@
         
     ];
     ?>
-<!-- 
-    <p>
-        <?= $books[2] ?>
-    </p> -->
+
 <ul>
     <?php foreach ($books as $book) : ?>
         <li>
