@@ -16,5 +16,23 @@
         "phone": "2343423",
         "email": "tanja@gmail.com",
         "message": "fdhgfhfghfghf"
+    },
+    {
+        "name": "Nebojša",
+        "phone": "+381 63 55 41 77",
+        "email": "galilej@gmail.com",
+        "message": "Administrator...."
+    },
+    {
+        "name": "Милица",
+        "phone": "Минић",
+        "email": "milica@gmail.com",
+        "message": "Молицина порука...."
+    },
+    {
+        "name": "Aleksa",
+        "phone": "4545878454",
+        "email": "cile@gmail.com",
+        "message": "Cile majstor..."
     }
 ]
